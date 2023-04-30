@@ -1,0 +1,14 @@
+{
+	"extends": "@sindresorhus/tsconfig",
+	"compilerOptions": {
+		"outDir": "dist-js",
+		"target": "ES2022",
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"lib": [
+			"esnext",
+			"dom",
+			"dom.iterable"
+		]
+	}
+}
