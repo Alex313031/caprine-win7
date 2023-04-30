@@ -2,14 +2,14 @@
 	"name": "caprine",
 	"appName": "caprine",
 	"productName": "Caprine",
-	"version": "2.57.3",
+	"version": "2.57.4",
 	"description": "Elegant Facebook Messenger desktop app",
 	"license": "MIT",
-	"repository": "https://github.com/sindresorhus/caprine",
+	"repository": "https://github.com/Alex313031/caprine-win7",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
+		"name": "Alexander Frick",
+		"email": "alex313031@gmail.com",
+		"url": "https://thorium.rocks/win7"
 	},
 	"main": "dist-js",
 	"engines": {
@@ -101,7 +101,7 @@
 		"releaseDraft": false
 	},
 	"build": {
-		"electronVersion": "22.3.7",
+		"electronVersion": "^22.3.7",
 		"files": [
 			"**/*",
 			"!media${/*}"
@@ -167,7 +167,7 @@
 		},
 		"win": {
 			"verifyUpdateCodeSignature": false,
-			"icon": "build/icon.png"
+			"icon": "build/icon.ico"
 		}
 	},
 	"husky": {
