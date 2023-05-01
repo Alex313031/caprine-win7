@@ -51,7 +51,7 @@
 		"@types/facebook-locales": "^1.0.0",
 		"@types/lodash": "^4.14.194",
 		"del-cli": "^5.0.0",
-		"electron": "22.3.7",
+		"electron": "git+https://github.com/Alex313031/electron-releases-22.git#9e0a27c",
 		"electron-builder": "^23.6.0",
 		"husky": "^8.0.3",
 		"np": "^7.7.0",
@@ -102,6 +102,12 @@
 	},
 	"build": {
 		"electronVersion": "22.3.7",
+		"electronDownload": {
+			"isVerifyChecksum": false,
+			"strictSSL": false,
+			"cache": "electron",
+			"mirror": "https://github.com/Alex313031/electron-22/releases/download/v"
+		},
 		"files": [
 			"**/*",
 			"!media${/*}"
