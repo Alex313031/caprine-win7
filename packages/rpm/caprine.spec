@@ -56,7 +56,9 @@ install -Dm644 license %{buildroot}%{_datadir}/licenses/%{name}
 %{_datadir}/pixmaps/%{name}.png
 
 %changelog
-* Sat May  6 2023 dusansimic <dusan.simic1810@gmail.com> - 2.57.4-1
+* Fri Jun 6 2023 Alex313031 <alex313031@gmail.com> - 2.57.5-1
+- Release 2.57.5
+* Sat May 6 2023 dusansimic <dusan.simic1810@gmail.com> - 2.57.4-1
 - Release 2.57.4
 * Sun Apr 30 2023 dusansimic <dusan.simic1810@gmail.com> - 2.57.3-1
 - Release 2.57.3
