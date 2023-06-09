@@ -2,8 +2,8 @@
 	"name": "caprine",
 	"appName": "caprine",
 	"productName": "Caprine",
-	"version": "2.57.4",
-	"description": "Elegant Facebook Messenger desktop app",
+	"version": "2.57.5",
+	"description": "Elegant Facebook Messenger desktop app - Windows 7/8 builds",
 	"license": "MIT",
 	"repository": "https://github.com/Alex313031/caprine-win7",
 	"author": {
@@ -51,7 +51,7 @@
 		"@types/facebook-locales": "^1.0.0",
 		"@types/lodash": "^4.14.194",
 		"del-cli": "^5.0.0",
-		"electron": "git+https://github.com/Alex313031/electron-releases-22.git#9e0a27c",
+		"electron": "22.3.12",
 		"electron-builder": "^23.6.0",
 		"husky": "^8.0.3",
 		"np": "^7.7.0",
@@ -101,13 +101,7 @@
 		"releaseDraft": false
 	},
 	"build": {
-		"electronVersion": "22.3.7",
-		"electronDownload": {
-			"isVerifyChecksum": false,
-			"strictSSL": false,
-			"cache": "electron",
-			"mirror": "https://github.com/Alex313031/electron-22/releases/download/v"
-		},
+		"electronVersion": "22.3.12",
 		"files": [
 			"**/*",
 			"!media${/*}"
