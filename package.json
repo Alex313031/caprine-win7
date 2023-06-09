@@ -27,7 +27,7 @@
 		"release": "tsc && np"
 	},
 	"dependencies": {
-		"@electron/remote": "^2.0.9",
+		"@electron/remote": "^2.0.10",
 		"@sindresorhus/do-not-disturb": "^1.1.0",
 		"electron-better-ipc": "^2.0.1",
 		"electron-context-menu": "^3.6.1",
