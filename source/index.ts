@@ -66,7 +66,6 @@ if (config.get('hardwareAcceleration')) {
 }
 
 app.commandLine.appendSwitch('enable-quic');
-app.commandLine.appendSwitch('enable-experimental-web-platform-features');
 
 if (!is.development && config.get('autoUpdate')) {
 	(async () => {
@@ -311,6 +310,9 @@ function createMainWindow(): BrowserWindow {
 			preload: path.join(__dirname, 'browser.js'),
 			contextIsolation: true,
 			nodeIntegration: true,
+			experimentalFeatures: true,
+			webviewTag: true,
+			devTools: true,
 			spellcheck: config.get('isSpellCheckerEnabled'),
 			plugins: true,
 		},
@@ -534,6 +536,9 @@ function createMainWindow(): BrowserWindow {
 						titleBarStyle: 'default',
 						webPreferences: {
 							nodeIntegration: false,
+							experimentalFeatures: true,
+							webviewTag: true,
+							devTools: true,
 							preload: path.join(__dirname, 'browser-call.js'),
 						},
 					}};
