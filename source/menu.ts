@@ -709,7 +709,7 @@ ${debugInfo()}`;
                   const verWindow = new BrowserWindow({
                     width: 300,
                     height: 200,
-                    title: "Versions",
+                    title: 'Versions',
                     webPreferences: {
                       nodeIntegration: false,
                       nodeIntegrationInWorker: false,
@@ -720,8 +720,8 @@ ${debugInfo()}`;
                       devTools: true,
                       javascript: true,
                       plugins: true,
-                      preload: path.join(__dirname, '..', 'static/preload.js')
-                    }
+                      preload: path.join(__dirname, '..', 'static/preload.js'),
+                    },
                   });
                   require('@electron/remote/main').enable(verWindow.webContents);
                   verWindow.loadFile(path.join(__dirname, '..', 'static/versions.html'));
@@ -786,8 +786,8 @@ ${debugInfo()}`;
                     webviewTag: true,
                     devTools: true,
                     javascript: true,
-                    plugins: true
-                  }
+                    plugins: true,
+                  },
                 });
                 gpuWindow.loadURL('chrome://gpu');
             },
