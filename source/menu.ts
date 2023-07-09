@@ -708,7 +708,7 @@ ${debugInfo()}`;
                 click() {
                   const verWindow = new BrowserWindow({
                     width: 300,
-                    height: 200,
+                    height: 230,
                     title: 'Versions',
                     webPreferences: {
                       nodeIntegration: false,
