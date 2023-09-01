@@ -1,30 +1,4 @@
-<div align="center">
-	<br>
-	<br>
-	<a href="https://sindresorhus.com/caprine">
-		<img src="media/AppIcon-readme.png" width="200" height="200">
-	</a>
-	<h1>Caprine</h1>
-	<p>
-		<b>Elegant Facebook Messenger desktop app</b>
-	</p>
-	<br>
-	<br>
-	<p>
-		Caprine is an unofficial and privacy-focused Facebook Messenger app with many useful features.
-	</p>
-	<b>
-		Caprine is feature complete. However, we welcome contributions for improvements and bug fixes.
-	</b>
-	<br>
-		<a href="https://sindresorhus.com/caprine">
-		Website
-		</a>
-	<br>
-	<a href="https://github.com/sindresorhus/caprine/releases/latest">
-		<img src="media/screenshot.png" width="846">
-	</a>
-</div>
+# DEPRECATED! Merged with https://github.com/Alex313031/caprine-ng so use that!
 
 ## Highlights
 
